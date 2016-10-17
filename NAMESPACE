@@ -1,0 +1,12 @@
+importFrom(utils, packageVersion)
+importFrom(stats, setNames)
+
+export(latex)
+export(markdown, Biocpkg, Biocannopkg, Biocexptpkg, CRANpkg, Rpackage, Githubpkg)
+export(doc_date, pkg_ver)
+export(html_document, pdf_document, md_document)
+
+# BiocStyle v.2
+export(latex2)
+export(html_document2, pdf_document2)
+export(output)
